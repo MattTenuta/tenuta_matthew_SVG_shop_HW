@@ -1,0 +1,17 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="136.42" height="139.59" viewBox="0 0 136.42 139.59">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="cls-1" cx="40.36" cy="63.92" r="16.29"/>
+    <circle class="cls-1" cx="94.55" cy="63.92" r="16.29"/>
+    <path class="cls-1" d="M60.44,43.26c0,2.62-11.2-.94-21.77-.94s-18.4,3.56-18.4.94,7.83-6.63,18.4-6.63S60.44,40.65,60.44,43.26Z"/>
+    <path class="cls-1" d="M76,39.86c0,2.62,11.21-4.73,21.77-4.73s18.4,7.35,18.4,4.73-7.45-10.42-18-10.42S76,37.25,76,39.86Z"/>
+    <ellipse class="cls-1" cx="68.76" cy="102.24" rx="36.57" ry="7.91"/>
+  </g>
+</svg>

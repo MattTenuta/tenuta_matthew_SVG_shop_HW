@@ -1,0 +1,105 @@
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+body { font-size: 16px; }
+
+.hidden { display: none; }
+
+
+.main-heading { 
+    color: red; 
+    cursor: pointer;
+
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    /* em is a relative unit based on the font size you set on the body */
+    font-size: 3em;
+}
+
+
+#svg-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    background-color: purple;
+}
+
+.icon {
+    background-color: pink;
+}
+
+.container {
+    display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+/*decendant selector - every img inside every element with a class of container */
+.container img {
+    width: 100%; 
+    background-color: blue;
+}
+
+/* interactive svg rules */
+
+.cls-2:hover {
+    fill: orange;
+  }
+
+/* _____________________________________
+
+   02. CSS Grid
+   _____________________________________ */
+
+   @supports (grid-area: auto) {
+
+    .site {
+       max-width: none;
+    }
+
+    /*------------ Grid Items ------------*/
+
+    .main > * {
+       display: grid;
+          grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;
+    }
+
+    .one-item {
+       display: grid;
+       grid-column: 2 / span 2;
+       grid-template-columns: 1fr;
+    }
+
+    .two-items {
+       display: grid;
+       grid-column: 2 / span 2;
+       grid-template-columns: repeat(2, 1fr);
+       justify-content: space-evenly;
+    }
+
+    .three-items {
+       display: grid;
+       grid-column: 2 / span 2;
+       grid-template-columns: repeat(3, 1fr);
+       justify-content: space-evenly;
+       row-gap: 2em;
+       column-gap: 2em;
+    }
+
+    .four-items {
+        display: grid;
+        grid-column: 2 / span 2;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: space-evenly;
+        row-gap: 2em;
+        column-gap: 2em;
+     }
+}
