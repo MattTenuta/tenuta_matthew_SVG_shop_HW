@@ -1,9 +1,13 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="136.42" height="139.59" viewBox="0 0 136.42 139.59">
+<svg id="Normal_3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="136.42" height="139.59" viewBox="0 0 136.42 139.59">
   <defs>
     <style>
+    #Normal_3:hover { cursor: pointer; }
+    #Normal_3:hover .cls-1 { fill: blue; }
       .cls-1 {
         stroke: #231f20;
         stroke-miterlimit: 10;
+        fill: black;
+        transition: all 1s ease;
       }
     </style>
   </defs>

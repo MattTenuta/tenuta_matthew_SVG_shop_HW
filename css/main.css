@@ -11,12 +11,10 @@ body { font-size: 16px; }
 .hidden { display: none; }
 
 
-.main-heading { 
-    color: red; 
+.main-heading {
     cursor: pointer;
-
     text-align: center;
-    font-family: 'Lobster', cursive;
+    font-family: 'Mochiy Pop P One', cursive;
     /* em is a relative unit based on the font size you set on the body */
     font-size: 3em;
 }
@@ -31,11 +29,31 @@ body { font-size: 16px; }
 }
 
 .icon {
-    background-color: pink;
+    max-width: 100%;
 }
 
 .container {
     display: flex;
+}
+
+.box {
+    margin-left: 5em;
+    height: 20em;
+    width: 20em;
+    background-color: aquamarine;
+}
+
+.faces {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 4em;
+}
+
+.text {
+    font-size: 25px;
+    padding-bottom: 8px;
+    text-align: center;
 }
 
 .flex {
@@ -44,8 +62,13 @@ body { font-size: 16px; }
 
 /*decendant selector - every img inside every element with a class of container */
 .container img {
-    width: 100%; 
-    background-color: blue;
+    cursor: pointer;
+    width: 100%;
+    background-color: rgb(151, 145, 145);
+}
+
+.container div {
+    background-color: rgb(151, 145, 145);
 }
 
 /* interactive svg rules */
