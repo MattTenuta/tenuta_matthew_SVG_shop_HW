@@ -1,8 +1,8 @@
-<svg id="Normal_3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="136.42" height="139.59" viewBox="0 0 136.42 139.59">
+<svg id="normal_3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="136.42" height="139.59" viewBox="0 0 136.42 139.59">
   <defs>
     <style>
-    #Normal_3:hover { cursor: pointer; }
-    #Normal_3:hover .cls-1 { fill: blue; }
+    #normal_3:hover { cursor: pointer; }
+    #normal_3:hover .cls-1 { fill: blue; }
       .cls-1 {
         stroke: #231f20;
         stroke-miterlimit: 10;
@@ -10,6 +10,17 @@
         transition: all 1s ease;
       }
     </style>
+
+    <script>
+      <!-- Define the variables first (The elements you want the user to interact with) -->
+      let normalFace3 = document.querySelector("#normal_3");
+
+      function logMyId() { console.log(this.id); }
+
+      <!-- Define the user events that drive interactivity (click, hover, whatever) -->
+      normalFace3.addEventListener("click", logMyId);
+    </script>
+
   </defs>
   <g>
     <circle class="cls-1" cx="40.36" cy="63.92" r="16.29"/>

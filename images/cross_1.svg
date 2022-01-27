@@ -15,6 +15,17 @@
     }
 
     </style>
+
+    <script>
+      <!-- Define the variables first (The elements you want the user to interact with) -->
+      let deadFace1 = document.querySelector("#cross_1");
+
+      function logMyId() { console.log(this.id); }
+
+      <!-- Define the user events that drive interactivity (click, hover, whatever) -->
+      deadFace1.addEventListener("click", logMyId);
+    </script>
+    
   </defs>
   <path class="cls-2" d="M15.89,102.49c0-15.84,23-20.26,53-20.26s54.44,3.66,54.44,19.5-24.38.21-54.44.21S15.89,118.32,15.89,102.49Z"/>
   <polygon class="cls-2" points="53.65 34.16 49.7 30.2 38.36 41.54 27.02 30.2 23.07 34.16 34.41 45.5 23.07 56.84 27.02 60.79 38.36 49.45 49.7 60.79 53.65 56.84 42.31 45.5 53.65 34.16"/>

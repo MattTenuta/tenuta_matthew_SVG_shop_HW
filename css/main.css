@@ -6,7 +6,9 @@
     box-sizing: border-box;
 }
 
-body { font-size: 16px; }
+body { 
+    font-size: 16px;
+}
 
 .hidden { display: none; }
 
@@ -25,7 +27,7 @@ body { font-size: 16px; }
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 20px;
-    background-color: purple;
+    background-image: linear-gradient(blue, purple, pink);
 }
 
 .icon {
