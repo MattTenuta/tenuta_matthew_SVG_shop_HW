@@ -3,12 +3,16 @@
     <style>
     #normal_1:hover { cursor: pointer; }
     #normal_1:hover .cls-1 { fill: blue; }
+
+
       .cls-1 {
         stroke: #231f20;
         stroke-miterlimit: 10;
         fill: black;
         transition: all 1s ease;
       }
+
+      
 
     </style>
 

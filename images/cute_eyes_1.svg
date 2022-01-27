@@ -1,6 +1,9 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="136.42" height="139.59" viewBox="0 0 136.42 139.59">
+<svg id="cute_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="136.42" height="139.59" viewBox="0 0 136.42 139.59">
   <defs>
     <style>
+    #cute_1:hover { cursor: pointer; }
+    #cute_1:hover .cls-3 { transform: scale(1.2); }
+
       .cls-1, .cls-2 {
         stroke: #231f20;
         stroke-miterlimit: 10;
@@ -9,14 +12,32 @@
       .cls-2 {
         fill: #fff;
       }
+
+      .cls-3 {
+        transform-origin: center;
+      }
+
     </style>
+     
+    <script>
+      <!-- Define the variables first (The elements you want the user to interact with) -->
+      let cuteFace1 = document.querySelector("#cute_1");
+
+      function logMyId() { console.log(this.id); }
+
+      <!-- Define the user events that drive interactivity (click, hover, whatever) -->
+      cuteFace1.addEventListener("click", logMyId);
+    </script>
+    
   </defs>
   <g>
-    <circle class="cls-1" cx="101.48" cy="41.67" r="16.29"/>
-    <circle class="cls-1" cx="38.95" cy="41.67" r="16.29"/>
-    <ellipse class="cls-2" cx="93.38" cy="34.97" rx="6.38" ry="3.98" transform="translate(12.45 93.22) rotate(-56.28)"/>
-    <ellipse class="cls-2" cx="29.97" cy="34.97" rx="6.38" ry="3.98" transform="matrix(0.56, -0.83, 0.83, 0.56, -15.76, 40.48)"/>
-    <path class="cls-1" d="M119.16,88.44c0,15.28-22.18,27.66-49.54,27.66S20.09,103.72,20.09,88.44s17.38,0,44.74,0S119.16,73.16,119.16,88.44Z"/>
-    <circle class="cls-1" cx="69.62" cy="65.13" r="5.43"/>
+    <path class="cls-1" d="M94.91,27.11a16.3,16.3,0,1,0,16.3,16.29A16.29,16.29,0,0,0,94.91,27.11Zm-4.8,11.8c-2,2.93-5,4.32-6.85,3.1s-1.72-4.58.24-7.52,5-4.32,6.85-3.1S92.07,36,90.11,38.91Z"/>
+    <ellipse class="cls-2" cx="86.81" cy="36.7" rx="6.38" ry="3.98" transform="translate(8.09 88.53) rotate(-56.28)"/>
   </g>
+  <g>
+    <path class="cls-1" d="M39,25.38a16.3,16.3,0,1,0,16.3,16.29A16.29,16.29,0,0,0,39,25.38Zm-5.68,11.8c-2,2.93-5,4.32-6.85,3.1s-1.72-4.58.24-7.51,5-4.33,6.85-3.11S35.23,34.25,33.27,37.18Z"/>
+    <ellipse class="cls-2" cx="29.97" cy="34.97" rx="6.38" ry="3.98" transform="translate(-15.76 40.48) rotate(-56.28)"/>
+  </g>
+  <path class="cls-1 cls-3" d="M119.16,88.44c0,15.28-22.18,27.66-49.54,27.66S20.09,103.72,20.09,88.44s17.38,0,44.74,0S119.16,73.16,119.16,88.44Z"/>
+  <circle class="cls-1 cls-3" cx="69.62" cy="65.13" r="5.43"/>
 </svg>

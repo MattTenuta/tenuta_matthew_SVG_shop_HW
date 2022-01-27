@@ -1,6 +1,10 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="136.42" height="139.59" viewBox="0 0 136.42 139.59">
+<svg id="cute_3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="136.42" height="139.59" viewBox="0 0 136.42 139.59">
   <defs>
     <style>
+    #cute_3:hover { cursor: pointer; }
+    #cute_3:hover .cls-5 { transform: scale(1.2); }
+
+
       .cls-1, .cls-2, .cls-3, .cls-4 {
         stroke: #231f20;
         stroke-miterlimit: 10;
@@ -18,7 +22,22 @@
       .cls-4 {
         fill: #020202;
       }
+
+      .cls-5 {
+        transform-origin: center;
+      }
     </style>
+     
+    <script>
+      <!-- Define the variables first (The elements you want the user to interact with) -->
+      let cuteFace3 = document.querySelector("#cute_3");
+
+      function logMyId() { console.log(this.id); }
+
+      <!-- Define the user events that drive interactivity (click, hover, whatever) -->
+      cuteFace3.addEventListener("click", logMyId);
+    </script>
+    
   </defs>
   <g>
     <circle class="cls-1" cx="97.01" cy="52.41" r="16.29"/>
@@ -27,7 +46,7 @@
     <ellipse class="cls-2" cx="25.49" cy="45.71" rx="6.38" ry="3.98" transform="translate(-26.68 41.54) rotate(-56.28)"/>
     <path class="cls-3" d="M74.57,73c0,3.76-4.33,6.81-9.67,6.81s-9.66-3-9.66-6.81"/>
     <circle class="cls-4" cx="64.37" cy="64.68" r="2.31"/>
-    <path class="cls-3" d="M18.18,26.74s5.73-3,10.53-3.53,8.08-1.27,13.39,0A35.86,35.86,0,0,1,52,26.74"/>
-    <path class="cls-3" d="M114.73,24.63s-5.72-3-10.52-3.54-8.08-1.26-13.39,0A35.82,35.82,0,0,0,81,24.63"/>
+    <path class="cls-3 cls-5" d="M18.18,26.74s5.73-3,10.53-3.53,8.08-1.27,13.39,0A35.86,35.86,0,0,1,52,26.74"/>
+    <path class="cls-3 cls-5" d="M114.73,24.63s-5.72-3-10.52-3.54-8.08-1.26-13.39,0A35.82,35.82,0,0,0,81,24.63"/>
   </g>
 </svg>
