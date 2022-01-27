@@ -1,17 +1,22 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="136.42" height="139.59" viewBox="0 0 136.42 139.59">
+<svg id="cross_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="136.42" height="139.59" viewBox="0 0 136.42 139.59">
   <defs>
     <style>
-      .cls-1 {
+    #cross_2:hover { cursor: pointer; }
+    #cross_2:hover .cls-2 { transform: rotate(3600deg); }
+
+    .cls-1 {
         stroke: #231f20;
         stroke-miterlimit: 10;
-      }
+    }
+
+    .cls-2 {
+        transform-origin: center;
+        transition: all ease 3s;
+    }
+    
     </style>
   </defs>
-  <g>
-    <rect class="cls-1" x="17.32" y="41.37" width="37.67" height="5.59" transform="translate(-20.64 38.5) rotate(-45)"/>
-    <rect class="cls-1" x="17.32" y="41.37" width="37.67" height="5.59" transform="translate(30.5 100.96) rotate(-135)"/>
-    <rect class="cls-1" x="79.85" y="41.37" width="37.67" height="5.59" transform="translate(-2.32 82.71) rotate(-45)"/>
-    <rect class="cls-1" x="79.85" y="41.37" width="37.67" height="5.59" transform="translate(137.24 145.17) rotate(-135)"/>
-    <path class="cls-1" d="M100.1,103.75c0,14.09-15.14,2.46-33.82,2.46s-33.81,11.63-33.81-2.46S47.61,78.23,66.28,78.23,100.1,89.65,100.1,103.75Z"/>
-  </g>
+  <polygon class="cls-2" points="51.45 32.82 47.5 28.87 36.16 40.21 24.82 28.87 20.86 32.82 32.21 44.16 20.86 55.5 24.82 59.45 36.16 48.11 47.5 59.45 51.45 55.5 40.11 44.16 51.45 32.82"/>
+  <polygon class="cls-2" points="113.98 32.82 110.03 28.87 98.68 40.21 87.34 28.87 83.39 32.82 94.73 44.16 83.39 55.5 87.34 59.45 98.68 48.11 110.03 59.45 113.98 55.5 102.64 44.16 113.98 32.82"/>
+  <path class="cls-2" d="M100.1,103.75c0,14.09-15.14,2.46-33.82,2.46s-33.81,11.63-33.81-2.46S47.61,78.23,66.28,78.23,100.1,89.65,100.1,103.75Z"/>
 </svg>
