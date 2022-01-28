@@ -96,6 +96,7 @@ body {
     .main > * {
        display: grid;
           grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;
+          background-color: blue;
     }
 
     .one-item {
